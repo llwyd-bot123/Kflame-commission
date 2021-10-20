@@ -1,7 +1,9 @@
 <template>
-    <div class="flex flex-col font-BreeSerif h-screen w-full">
-        <div class="flex mt-8 mx-auto">1</div>
-        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-16 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
+    <div v-if="true" class="flex flex-col font-BreeSerif h-screen w-full">
+        <div class="w-11/12 mx-auto items-center">
+            <img src="../assets/Header.png" class="w-full h-auto">
+          </div>
+        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-5 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
             <div class="flex flex-col w-60% md:w-4/5 md:mt-8 md:text-center sm:w-4/5 sm:mt-8 sm:text-center space-y-6 pl-24 md:pl-0 md:pb-8 sm:pl-0 sm:pb-8 pb-12">
                 <div class="flex flex-col space-y-3 ">
                     <p class="sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">Based on your results...</p>
@@ -18,7 +20,7 @@
                     <p>Her close family values had made it easier for her to trust the people and her warm and uplifting personality made it unchallenging for them to trust her as well.</p>
                   </div>
                 </div>
-                <div class="items-center pb-1.5">
+                <div class="items-center pb-2">
                     <button class="text-center text-3xl xl:text-4xl 2xl:text-5xl py-4 px-12 tracking-wide border-2 border-black rounded-full bg-red-500">
                         Next
                     </button>
@@ -32,8 +34,10 @@
     
     <!-- Result Page 2 -->
     <div v-if="false" class="flex flex-col font-BreeSerif h-screen w-full">
-        <div class="flex mt-8 mx-auto">1</div>
-        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-16 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
+        <div class="w-11/12 mx-auto ">
+            <img src="../assets/Header.png" class="w-full h-auto">
+          </div>
+        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-5 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
             <div class="flex flex-col w-60% md:w-4/5 md:mt-8 md:text-center sm:w-4/5 sm:mt-8 sm:text-center space-y-6 pl-24 md:pl-0 md:pb-8 sm:pl-0 sm:pb-8 pb-12">
                 <div class="flex flex-col space-y-3 ">
                     <p class="sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">Based on your results...</p>
@@ -60,15 +64,17 @@
 
     <!-- Result Page 3 -->
     <div v-if="false" class="flex flex-col font-BreeSerif h-screen w-full">
-        <div class="flex mt-8 mx-auto">1</div>
-        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-16 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
+        <div class="w-11/12 mx-auto items-center">
+            <img src="../assets/Header.png" class="w-full h-auto">
+          </div>
+        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-5 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
             <div class="flex flex-col w-60% md:w-4/5 md:mt-8 md:text-center sm:w-4/5 sm:mt-8 sm:text-center space-y-6 pl-24 md:pl-0 md:pb-8 sm:pl-0 sm:pb-8 pb-12">
                 <div class="flex flex-col space-y-3 ">
                     <p class="sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">Based on your results...</p>
                     <h2 class="text-7xl sm:text-5xl xl:text-8xl 2xl:text-9xl tracking-wide text-genderChoiceCol text-stroke">Yoo Seung-ho</h2>
                     <p class="pl-3 md:pl-0 sm:pl-0 sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">from “I am Not a Robot”</p>
                 </div>
-                <div class="flex flex-col pl-3 pb-2.5 space-y-4 text-sm sm:text-xs xl:text-base 2xl:text-lg">
+                <div class="flex flex-col pl-3 pb-3 space-y-4 text-sm sm:text-xs xl:text-base 2xl:text-lg">
                   <div class="flex flex-row space-x-2">
                     <span>⭐</span>
                     <p>Though he lives a wealthy life as a director of a financial group, he grew up sheltered and in isolation cause of his allergic reaction to humans.</p>
@@ -96,15 +102,17 @@
 
     <!-- Result Page 4 -->
     <div v-if="false" class="flex flex-col font-BreeSerif h-screen w-full">
-        <div class="flex mt-8 mx-auto">1</div>
-        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-16 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
+        <div class="w-11/12 mx-auto items-center">
+            <img src="../assets/Header.png" class="w-full h-auto">
+          </div>
+        <div class="flex flex-row md:flex-col-reverse md:space-x-0 md:items-center mt-5 space-x-3 px-4 h-auto sm:flex-col-reverse sm:items-center sm:space-x-0">
             <div class="flex flex-col w-65% md:w-4/5 md:mt-8 md:text-center sm:w-4/5 sm:mt-8 sm:text-center space-y-6 pl-24 md:pl-0 md:pb-8 sm:pl-0 sm:pb-8 pb-8">
                 <div class="flex flex-col space-y-3 ">
                     <p class="sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">Based on your results...</p>
                     <h2 class="text-7xl sm:text-5xl xl:text-8xl 2xl:text-9xl tracking-wide text-genderChoiceCol text-stroke">Kim Jung-hwan</h2>
                     <p class="pl-3 md:pl-0 sm:pl-0 sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">from “Reply 1988”</p>
                 </div>
-                <div class="flex flex-col pl-3 pb-0.5 space-y-4 text-sm sm:text-xs xl:text-base 2xl:text-lg w-11/12">
+                <div class="flex flex-col pl-3 pb-1 space-y-4 text-sm sm:text-xs xl:text-base 2xl:text-lg w-11/12">
                   <div class="flex flex-row space-x-2">
                     <span>⭐</span>
                     <p>One of the leaders of the neighborhood group known for his smarts and good looks, helping his brother achieve his goals.</p>

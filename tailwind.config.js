@@ -21,6 +21,7 @@ module.exports = {
         "secureBG": "url('../../assets/Backrgounds/background_secure.png')",
         "dismissiveBG":
           "url('../../assets/Backrgounds/dismissive_background.png')",
+        "graph": "url('../../assets/Backrgounds/bargraph_bg.png')"
       },
 
       textColor: (theme) => theme("colors"),
@@ -69,6 +70,7 @@ module.exports = {
         "35%": "35%",
         "65%" : "65%",
         "27%" : "27%",
+        "53%" : "53%",
       },
 
       margin: {
@@ -82,6 +84,7 @@ module.exports = {
         "10.7": "2.7rem",
         '11.8' : '2.9rem',
         "13" : "3.3rem",
+        "30" : "7.5rem"
       },
 
       fontSize: {
