@@ -21,7 +21,7 @@ module.exports = {
         "secureBG": "url('../../assets/Backrgounds/background_secure.png')",
         "dismissiveBG":
           "url('../../assets/Backrgounds/dismissive_background.png')",
-        "graph": "url('../../assets/Backrgounds/bargraph_bg.png')"
+        "graph": "url('../../assets/Backrgounds/bargraph_bg.png')",
       },
 
       textColor: (theme) => theme("colors"),
@@ -33,6 +33,7 @@ module.exports = {
         ...theme("colors"),
         card1: "#efc078",
         genderbg: "#f7dee4",
+        black2: 'rgba(0, 0, 0, 0.75)',
       }),
 
       spacing: {
@@ -89,6 +90,7 @@ module.exports = {
 
       fontSize: {
         "7.5xl": ["5.5rem", { lineHeight: "1" }],
+        "7.2xl": ["5.3rem", { lineHeight: "1" }],
         "7.1xl": ["5.1rem", { lineHeight: "1" }],
         "4.5xl": ["2.8rem", { lineHeight: "1" }],
         "8.5xl": ["6.5rem", { lineHeight: "1" }],

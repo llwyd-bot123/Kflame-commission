@@ -12,7 +12,7 @@
           <h1 class="font-BreeSerif text-3xl sm:text-2xl xl:text-4xl 2xl:text-5xl leading-snug">The Most Watched Korean Dramas<br>in the Philippines</h1>
       </div>
       <div class="w-4/5 flex justify-center lg:ml-20 xl:ml-28 md:ml-0 sm:ml-0 mt-8">
-          <img src="../assets/bargraph.png" class="h-auto w-11/12 sm:w-9/12">
+          <img src="../assets/bargraph.png" class="h-auto w-11/12 sm:w-full">
       </div>
   </div>
     </div>

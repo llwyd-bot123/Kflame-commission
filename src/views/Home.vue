@@ -113,7 +113,7 @@
           </h1>
         </div>
         <div class="font-Barlow w-9/12 sm:w-full sm:px-5 md:w-10/12">
-          <p class="text-xs xl:text-sm 2xl:text-base font-semibold">
+          <p class="text-base xl:text-lg 2xl:text-xl font-semibold">
             Take the test and see what awaits you!<br />K-flames is an online
             personality quiz that measures your attachment style
           </p>
@@ -137,7 +137,7 @@
     </div>
 
     <div
-      class="bg-2ndPage bg-no-repeat bg-cover bg-center w-full h-auto flex flex-col pb-10 mt-6 pt-10"
+      class="bg-2ndPage bg-no-repeat bgsizecss md:bg-center md:bg-cover sm:bg-center sm:bg-cover w-full h-auto flex flex-col pb-8 mt-6 pt-10"
     >
       <div class="flex flex-row justify-center items-center pt-20">
         <div
@@ -153,7 +153,7 @@
             </h1>
           </div>
           <div class="font-Barlow px-14 text-center">
-            <p class="text-xs xl:text-sm text-gray-500">
+            <p class="text-base xl:text-lg 2xl:text-xl text-gray-500">
               In order for you to understand the four different attachment
               styles you can read some of their descriptions here.
             </p>
@@ -266,7 +266,7 @@
     </div>
 
     <div
-      class="flex flex-col mt-10 bg-4thPage bg-no-repeat bg-cover bg-center w-full h-auto px-10 pb-20 sm:px-8 md:px-5 sm:mt-0 "
+      class="flex flex-col mt-10 bg-4thPage bg-no-repeat bgsizecss md:bg-center md:bg-cover sm:bg-center sm:bg-cover pb-30 w-full h-auto px-10 sm:px-8 md:px-5 sm:mt-0 "
     >
       <div
         class="flex flex-row-reverse sm:flex-col-reverse pb-44 pt-20 justify-between sm:justify-center sm:items-center text-right space-x-12 md:space-x-8 sm:space-x-0"
@@ -290,6 +290,7 @@
           </div>
           <div class="font-BreeSerif">
             <button
+              @click="$router.push('/graphPage')"
               class="focus:outline-none text-center text-2xl 2xl:text-3xl w-auto py-1 px-6 tracking-wide border-2 border-black rounded-full mt-4"
             >
               Read more
@@ -453,18 +454,15 @@
     </div>
   </div>
 
-  <div
-    v-if="modal1"
-    class="fixed z-10 inset-0 overflow-y-auto bg-black bg-opacity-50"
-  >
+  <div v-if="modal1" class="fixed z-10 inset-0 overflow-y-auto bg-black2">
     <div
       @click.self="openModal1"
       class="flex justify-center w-full items-center p-8 text-center"
     >
-      <div class="bg-fearfulBG bg-no-repeat bgsize ">
+      <div class="bg-fearfulBG bg-no-repeat bgsize">
         <div class="flex flex-grow-0 font-BreeSerif flex-col ">
-          <div class="mt-8 w-full items-center object-contain px-12">
-            <img src="../assets/Header.png" class="w-auto h-auto">
+          <div class="mt-8 w-full items-center sm:px-2 px-12">
+            <img src="../assets/Header.png" class="w-auto h-auto" />
           </div>
           <div
             class="flex flex-row md:flex-col-reverse md:space-x-0 sm:flex-col-reverse sm:space-x-0 mt-12 justify-center space-x-8"
@@ -628,10 +626,7 @@
     </div>
   </div>
 
-  <div
-    v-if="modal2"
-    class="fixed z-10 inset-0 overflow-y-auto bg-black bg-opacity-50"
-  >
+  <div v-if="modal2" class="fixed z-10 inset-0 overflow-y-auto bg-black2">
     <div
       @click.self="openModal2"
       class="flex justify-center w-full items-center p-8 text-center"
@@ -639,7 +634,7 @@
       <div class="bg-preoccupiedBG bg-no-repeat bgsize ">
         <div class="flex flex-grow-0 font-BreeSerif flex-col ">
           <div class="mt-8 w-full items-center object-contain px-12">
-            <img src="../assets/Header.png" class="w-auto h-auto">
+            <img src="../assets/Header.png" class="w-auto h-auto" />
           </div>
           <div
             class="flex flex-row md:flex-col-reverse md:space-x-0 sm:flex-col-reverse sm:space-x-0 mt-12 justify-center space-x-8"
@@ -798,10 +793,7 @@
     </div>
   </div>
 
-  <div
-    v-if="modal3"
-    class="fixed z-10 inset-0 overflow-y-auto bg-black bg-opacity-50"
-  >
+  <div v-if="modal3" class="fixed z-10 inset-0 overflow-y-auto bg-black2">
     <div
       @click.self="openModal3"
       class="flex justify-center w-full items-center p-8 text-center"
@@ -809,7 +801,7 @@
       <div class="bg-secureBG bg-no-repeat bgsize ">
         <div class="flex flex-grow-0 font-BreeSerif flex-col ">
           <div class="mt-8 w-full items-center object-contain px-12">
-            <img src="../assets/Header.png" class="w-auto h-auto">
+            <img src="../assets/Header.png" class="w-auto h-auto" />
           </div>
           <div
             class="flex flex-row md:flex-col-reverse md:space-x-0 sm:flex-col-reverse sm:space-x-0 mt-8 justify-center space-x-8"
@@ -959,10 +951,7 @@
     </div>
   </div>
 
-  <div
-    v-if="modal4"
-    class="fixed z-10 inset-0 overflow-y-auto bg-black bg-opacity-50"
-  >
+  <div v-if="modal4" class="fixed z-10 inset-0 overflow-y-auto bg-black2">
     <div
       @click.self="openModal4"
       class="flex justify-center w-full items-center p-8 text-center"
@@ -970,7 +959,7 @@
       <div class="bg-dismissiveBG bg-no-repeat bgsize ">
         <div class="flex flex-grow-0 font-BreeSerif flex-col ">
           <div class="mt-8 w-full items-center object-contain px-12">
-            <img src="../assets/Header.png" class="w-auto h-auto">
+            <img src="../assets/Header.png" class="w-auto h-auto" />
           </div>
           <div
             class="flex flex-row md:flex-col-reverse md:space-x-0 sm:flex-col-reverse sm:space-x-0 mt-12 justify-center space-x-8"
@@ -1190,5 +1179,10 @@
   }
   .bgsize {
     background-size: 100% 100%;
+  }
+  @media screen and (min-width: 1024px) {
+    .bgsizecss {
+      background-size: 100% 100%;
+    }
   }
 </style>
