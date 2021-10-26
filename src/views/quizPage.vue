@@ -6,7 +6,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">What is rejection to you?</p>
-            <button @click="Question('Secure', 1)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 1)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Natural. You took a risk, and that’s what matters.</p>
             </button>
             <button @click="Question('Preoccupied', 1)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -29,7 +29,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">What makes you uncomfortable?</p>
-            <button @click="Question('Secure', 2)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 2)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Uncertainty</p>
             </button>
             <button @click="Question('Preoccupied', 2)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -51,7 +51,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">Right now, a relationship seems...</p>
-            <button @click="Question('Secure', 3)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 3)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Hopeful. Love will come when it wants.</p>
             </button>
             <button @click="Question('Preoccupied', 3)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -73,7 +73,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">When someone crosses your boundaries, you’re more likely to...</p>
-            <button @click="Question('Secure', 4)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 4)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Be upfront about your feelings and talk it out with them.</p>
             </button>
             <button @click="Question('Preoccupied', 4)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -95,7 +95,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">What do you value most in a relationship?</p>
-            <button @click="Question('Secure', 5)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 5)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Reciprocation</p>
             </button>
             <button @click="Question('Preoccupied', 5)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -117,7 +117,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">Reaching out for help is...</p>
-            <button @click="Question('Secure', 6)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 6)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Necessary. There’s only so much you can do, and there’ll be people to shoulder your worries.</p>
             </button>
             <button @click="Question('Preoccupied', 6)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -139,7 +139,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">When your loved one grows closer to a new set of friends, you’re more likely to...</p>
-            <button  @click="Question('Secure', 7)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button  @click="Question('Secure', 7)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Be happy for your loved one, and get to know them through your loved one’s stories about them.</p>
             </button>
             <button @click="Question('Preoccupied', 7)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -161,7 +161,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">Being alone is...</p>
-            <button @click="Question('Secure', 8)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 8)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">A breather. You need time for yourself too.</p>
             </button>
             <button @click="Question('Preoccupied', 8)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -183,7 +183,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">When someone doesn’t put in the same effort and energy you put into your bonds, you mostly...</p>
-            <button @click="Question('Secure', 9)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 9)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Bring it up. Move on for the better, if it doesn’t work out.</p>
             </button>
             <button @click="Question('Preoccupied', 9)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -205,7 +205,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">To you, distance...</p>
-            <button @click="Question('Secure', 10)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 10)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Strengthens relationships over time.</p>
             </button>
             <button @click="Question('Preoccupied', 10)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -227,7 +227,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">How do you love?</p>
-            <button @click="Question('Secure', 11)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 11)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Openly. With nothing to lose. Not afraid to wear your heart on your sleeve.</p>
             </button>
             <button @click="Question('Preoccupied', 11)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -249,7 +249,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">Vulnerability and opening up feels...</p>
-            <button @click="Question('Secure', 12)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 12)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Natural. How will they know if you don’t speak up?</p>
             </button>
             <button @click="Question('Preoccupied', 12)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -271,7 +271,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">Why would you rely on yourself?</p>
-            <button @click="Question('Secure', 13)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 13)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">It puts you at ease.</p>
             </button>
             <button @click="Question('Preoccupied', 13)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -293,7 +293,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">Showing up to situations outside your comfort zone feels...</p>
-            <button @click="Question('Secure', 14)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 14)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">Challenging. You’ll find people you’ll get along with!</p>
             </button>
             <button @click="Question('Preoccupied', 14)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">
@@ -315,7 +315,7 @@
         </div>
         <div class="flex flex-col space-y-5 justify-center text-center items-center">
             <p class=" text-2xl 2xl:text-3xl sm:text-xl pb-4">What is reassurance to you?</p>
-            <button @click="Question('Secure', 15)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-blue-600 rounded-full text-center">
+            <button @click="Question('Secure', 15)" class="focus:outline-none w-97 sm:w-72 px-16 sm:px-4 py-4 bg-quizblue rounded-full text-center">
                 <p class="text-xl 2xl:text-2xl sm:text-base">A love language</p>
             </button>
             <button @click="Question('Preoccupied', 15)" class="focus:outline-none w-97 sm:w-72 px-5 sm:px-4 py-4 bg-pink-300 rounded-full text-center">

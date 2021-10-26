@@ -114,8 +114,7 @@
         </div>
         <div class="font-Barlow w-9/12 sm:w-full sm:px-5 md:w-10/12">
           <p class="text-base xl:text-lg 2xl:text-xl font-semibold">
-            Take the test and see what awaits you!<br />K-flames is an online
-            personality quiz that measures your attachment style
+            K-flames is an online personality quiz that measures your attachment style. Take the test and see what awaits you! 가자 (Let’s go)!
           </p>
         </div>
         <div class="font-BreeSerif items-center pt-8 md:pt-4">
@@ -421,13 +420,12 @@
           </svg>
         </a>
         <a
-          href="#PT"
-          v-smooth-scroll
-          class="focus:outline-none flex flex-col items-center"
+          @click="$router.push('/genderPage')"
+          class="focus:outline-none flex flex-col items-center mt-0.5 cursor-pointer group"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="w-7 h-auto 2xl:w-8 sm:w-5 md:w-5 fill-current text-gray-500 hover:text-red-500"
+            class="w-6 xl:w-7 h-auto 2xl:w-8 sm:w-5 md:w-5 fill-current text-gray-500 group-hover:text-red-500"
             viewBox="0 0 20 20"
           >
             <path
@@ -799,7 +797,7 @@
       class="flex justify-center w-full items-center p-8 text-center"
     >
       <div class="bg-secureBG bg-no-repeat bgsize ">
-        <div class="flex flex-grow-0 font-BreeSerif flex-col ">
+        <div class="flex flex-grow-0 text-white text-opacity-90 font-BreeSerif flex-col ">
           <div class="mt-8 w-full items-center object-contain px-12">
             <img src="../assets/Header.png" class="w-auto h-auto" />
           </div>
@@ -1088,7 +1086,7 @@
                   class="text-sm md:text-xs sm:text-xs sm:w-24 md:w-28 lg:w-32 xl:w-auto sm:text-center "
                 >
                   <span class="font-semibold">Yoo-Seung-ho</span><br />from “I
-                  am Not a Robert”
+                  am not a Robot”
                 </p>
                 <img
                   src="../assets/Dismissive/dismissivemale1.png"

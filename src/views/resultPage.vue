@@ -260,7 +260,7 @@
                 <div class="flex flex-col space-y-3 ">
                     <p class="sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">Based on your results, you are Dismissive like...</p>
                     <h2 class="text-7xl sm:text-5xl xl:text-8xl 2xl:text-9xl tracking-wide text-genderChoiceCol text-stroke">Yoo Seung-ho</h2>
-                    <p class="pl-3 md:pl-0 sm:pl-0 sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">from “I am Not a Robot”</p>
+                    <p class="pl-3 md:pl-0 sm:pl-0 sm:text-xl text-2xl xl:text-3xl 2xl:text-4xl">from “I am not a Robot”</p>
                 </div>
                 <div class="flex flex-col pl-3 pb-3 space-y-4 text-sm sm:text-xs xl:text-base 2xl:text-lg">
                   <div class="flex flex-row space-x-2">

@@ -34,6 +34,7 @@ module.exports = {
         card1: "#efc078",
         genderbg: "#f7dee4",
         black2: 'rgba(0, 0, 0, 0.75)',
+        quizblue: '#87CEEB'
       }),
 
       spacing: {
